@@ -6,7 +6,28 @@
 
 .nav {
     background-color: #ADD8E6;
-    min-height: 100px;
+    min-height: 50px;
     display: flex;
+    justify-content: center;
+    padding: 25px 200px;
+    
 }
 
+.nav_bar {
+    background-color: #DAA520;
+    border: 2px dotted black;
+    display: flex;
+    min-height: 50px;
+}
+
+.col-1 {
+    flex-basis: calc(100% / 5);
+    align-content: flex-end;
+}
+
+.nav_bar.col-2 {
+    display: flex;
+    flex-basis: calc(100% / 2);
+    align-self: center;
+    justify-content: center;
+}
