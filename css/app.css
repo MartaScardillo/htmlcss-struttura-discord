@@ -64,22 +64,30 @@
     border: 2px dotted black;
 }
 
-.first-section_white-part {
+.white-part {
     min-height: 50px;
     display: flex;
     justify-content: center;
     padding: 25px 200px;
 }
 
-.first-section_white-part_blue-block {
+.blue-block {
     background-color: #1C90FF;
     min-height: 300px;
     border: 2px dotted black;
 }
 
-.first-section_white-part_pink-block {
+.pink-block {
     background-color: #FEC0CA;
     min-height: 300px;
     border: 2px dotted black;
 }
 
+.grey-part {
+    background-color: #D3D3D3;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 200px;
+    flex-direction: row-reverse;
+}
