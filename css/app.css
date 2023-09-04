@@ -31,3 +31,17 @@
     align-self: center;
     justify-content: center;
 }
+
+.main-header {
+    background-color: #00008B;
+    min-height: 500px;
+    display: flex;
+    padding: 50px 400px;
+}
+
+.main-header_box {
+    background-color: #EE81EE;
+    min-height: 300px;
+    flex-grow: 1;
+    border: 2px dotted black;
+}
