@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.col-8 {
-    flex-basis: calc(100% / 8);
+/* .col-8 {
+    flex-basis: calc(100% / 8); */
 }
 
 .col-4 {
@@ -16,8 +16,8 @@
     flex-basis: calc(100% / 6);
 }
 
-.col-3 {
-    flex-basis: calc(100% / 3);
+/* .col-3 {
+    flex-basis: calc(100% / 3); */
 }
 
 .col-2 {
@@ -90,4 +90,18 @@
     justify-content: center;
     padding: 25px 200px;
     flex-direction: row-reverse;
+}
+
+.main-box {
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    padding: 50px 325px;
+}
+
+.box {
+    background-color: #228B21;
+    min-height: 500px;
+    border: 2px dotted black;
+    flex-grow: 1;
 }
